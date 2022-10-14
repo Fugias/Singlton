@@ -33,7 +33,7 @@ click.addEventListener("click", () => {
 window.addEventListener("resize", () => {
 
    // menu close 
-   if(screen.width >= 850) {
+   if(window.innerWidth >= 850) {
 
       hamburger.src = hamburger.src.replace(`_x`, '')
       ham_active = true
